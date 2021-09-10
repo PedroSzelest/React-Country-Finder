@@ -1,0 +1,30 @@
+.section-info {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(243, 241, 245);
+}
+
+.image-info img {
+    width: 50vw;
+}
+
+.text-info div {
+    margin: 20px;
+    border: thin solid black;
+    font-family: var(--poppins);
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+}
+
+.text-info div:first-child {
+    font-size: 1.5rem;
+    font-weight: 800;
+    display: inherit;
+}

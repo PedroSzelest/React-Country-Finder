@@ -1,0 +1,116 @@
+.main-home {
+    width: 100vw;
+    min-height: 80vh;
+    max-height: auto;
+}
+
+/* Scroll-bar */
+
+.scroll-bar {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.scroll-bar-div {
+    width: 30%;
+    height: 30vw;
+    position: relative;
+    margin-top: 5rem;
+    border: medium solid black;
+    display: flex;
+}
+
+.first-scroll-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.first-scroll-image > img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.second-scroll-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.second-scroll-image > img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.third-scroll-image {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.third-scroll-image > img {
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.next, .back {
+    color: white;
+    font-size: 2rem;
+    background: transparent;
+    outline: none;
+    border: none;
+    height: 50px;
+    z-index: 2;
+    position: relative;
+    top: 45%;
+}
+
+.next {
+    left: 89%;
+}
+
+/* Select-country */
+
+.search-country {
+    width: 20vw;
+    height: 6vh;
+    border: medium solid black;
+    text-align: center;
+    display: flex;
+    font-family: var(--poppins);
+}
+
+.search-country > h3 {
+    font-size: 1rem;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(56, 163, 165);
+    color: white;
+}
+
+.select-country {
+    text-align: center;
+    justify-self: center;
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: white;
+}
+
+.search-country button {
+    border: none;
+    outline: none;
+    height: 100%;
+    font-weight: 700;
+    padding: 10px;
+}
