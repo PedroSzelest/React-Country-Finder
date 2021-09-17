@@ -28,3 +28,41 @@
     font-weight: 800;
     display: inherit;
 }
+
+/*WEATHER*/
+
+.weather h4,
+.weather div {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: var(--poppins);
+    background-color: white;
+    border: thin solid black;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.weather h4 {
+    font-size: 20px;
+    font-weight: 400;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.weather-button {
+    padding: 10px;
+    border: 2px solid rgb(61, 134, 243);
+    border-radius: 50px;
+    font-family: var(--poppins);
+    background-color: white;
+    transition: all ease-in-out 0.4s;
+}
+
+.weather-button:hover {
+    background-color: rgb(61, 134, 243);
+    color: white;
+}
