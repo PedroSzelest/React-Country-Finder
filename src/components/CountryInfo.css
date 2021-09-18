@@ -66,3 +66,16 @@
     background-color: rgb(61, 134, 243);
     color: white;
 }
+
+.icon-weather {
+    width: 25px;
+}
+
+.undefined-weather {
+    width: 15vw;
+    font-family: var(--poppins);
+    font-size: 2rem;
+    color: red;
+    border: thin solid black;
+    padding: 10px;
+}

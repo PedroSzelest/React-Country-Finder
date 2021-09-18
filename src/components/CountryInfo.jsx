@@ -27,7 +27,6 @@ const CountryInfo = ()=> {
             <Loading />
         ) 
     } else {
-
         return(
             <>
                 {data === undefined? "" : data.map( info => {

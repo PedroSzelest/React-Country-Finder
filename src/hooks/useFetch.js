@@ -9,7 +9,7 @@ const useFetch = url => {
                 const result = await res.json()
                 return setData(result)
             } catch(err) {
-                console.log(err)
+                console.log("We found a error:" + err)
             }
         }
         

@@ -12,13 +12,13 @@ const Flags = ()=> {
     const [flag, setFlag] = useState([])
     const [scroll, setScroll] = useState(0)
     
+    
     const loader = ()=> {
         setLoading(true)
         setTimeout(()=> {
             setLoading(false)
         }, 1000)
     }
-
     useEffect(()=> {
         loader()
     }, [])

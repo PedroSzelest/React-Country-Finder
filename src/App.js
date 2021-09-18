@@ -7,6 +7,7 @@ import Home from "./components/Home"
 import Flags from "./components/Flags"
 import CountryInfo from './components/CountryInfo';
 import Loading from "./hooks/Loading"
+import  NotFound from "./components/NotFound"
 
 function App() {
   const [loading, setLoading] = useState()
@@ -37,9 +38,9 @@ function App() {
             <Route path="/flags/:country">
               <CountryInfo />
             </Route>
-            {/* <Route path="*">
+            <Route path="*">
               <NotFound />
-            </Route> */}
+            </Route>
           </Switch>
         </div>
       </Router>
