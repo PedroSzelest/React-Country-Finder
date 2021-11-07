@@ -324,7 +324,7 @@ const Home = ()=> {
                             <option value="Zambia">Zambia</option>
                             <option value="Zimbabwe">Zimbabwe</option>
                         </select>
-                        <Link to={`/flags/${change}`}>
+                        <Link to={`/flags/${change}`} style={{ textDecoration: "none"}}>
                             <button type="submit">SEARCH</button>
                         </Link>
                     </form>

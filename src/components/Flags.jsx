@@ -5,7 +5,7 @@ import { Link } from "react-router-dom"
 import Loading from "../hooks/Loading"
 
 const Flags = ()=> {
-    const { data } = useFetch("https://restcountries.eu/rest/v2/all")   
+    const { data } = useFetch("https://restcountries.com/v3.1/all")   
     const sentinel = useRef()
     
     const [loading, setLoading] = useState(false)
@@ -53,11 +53,11 @@ const Flags = ()=> {
         } else {
             return (flag.map(flag=> {
                 return(
-                <div id={flag.name} className="flag">
-                    <img src={flag.flag} alt={flag.name}/>
-                    <Link to={`/flags/${flag.name}`}>
+                <div id={flag.name.common} className="flag">
+                    <img src={flag.flags.svg} alt={flag.name.common}/>
+                    <Link to={`/flags/${flag.name.common}`}>
                         <div className="legend">
-                            <legend>{flag.name}</legend>
+                            <legend>{flag.name.common}</legend>
                         </div>
                     </Link>
                 </div>

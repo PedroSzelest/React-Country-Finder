@@ -15,7 +15,7 @@
 }
 
 .scroll-bar-div {
-    width: 30%;
+    width: 40%;
     height: 30vw;
     position: relative;
     margin-top: 5rem;
@@ -81,7 +81,7 @@
 /* Select-country */
 
 .search-country {
-    width: 20vw;
+    width: 40vw;
     height: 6vh;
     border: medium solid black;
     text-align: center;
@@ -91,6 +91,7 @@
 
 .search-country > h3 {
     font-size: 1rem;
+    padding-top: 6px;
     width: 50%;
     height: 100%;
     background-color: rgb(56, 163, 165);
@@ -113,4 +114,7 @@
     height: 100%;
     font-weight: 700;
     padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
